@@ -1,0 +1,77 @@
+.hero{
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-img{
+    width: 100%;
+    /* height: max-content; */
+    mask-image: linear-gradient(to right, transparent, black 75% );
+    -weblit-mask-image: linear-gradient(to right, transparent, black 75% );
+}
+
+.caption{
+    position: absolute;
+    width: 100%;
+    left: 6%;
+    bottom: 0;
+    top: 10rem;
+}
+
+.caption h2{
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    font-weight: 900;
+}
+
+.caption p{
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.hero-btn{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.hero-btn .btn img{
+    width: 25px;
+}
+
+.hero-btn .btn{
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600px;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-btn .btn.dark-btn{
+    color: #fff;
+    background: #6d6d6eb3;
+}
+
+.btn.dark-btn img{
+    border-radius: 50%;
+}
+
+.hero-btn .btn:hover{
+    background: #ffffffbf;
+
+}
+
+.hero-btn .btn.dark-btn:hover{
+    background: #6d6d6e66;
+}
+
+.more-cards{
+    padding-left: 6%;
+}
